@@ -60,7 +60,7 @@ def resolve(ch):
         
     
     while(len(ch)!=0 and f!=0):
-        print('KB currently is',ch)
+        print('Resolving',ch)
         f=0
         #go through the given KN
         #loop 1
