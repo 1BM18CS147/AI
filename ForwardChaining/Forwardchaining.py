@@ -100,11 +100,11 @@ class KB:
         for i, f in enumerate(set([f.expression for f in self.facts])):
             print(f'\t{i+1}. {f}')
             
-print("Enter KB: (enter exit to exit)")
+print("Enter KB: (enter e to exit)")
 kb = KB()
 while True:
     t = input()
-    if(t == 'exit'):
+    if(t == 'e'):
         break
     kb.tell(t)
 print("Enter Query:")
